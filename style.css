@@ -1,6 +1,16 @@
+.font-opensans{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
 
 .jumbo-1{
-    background-image: url(assets/main-bg.jpg);
+    background-image: url(assets/main-bg.png);
     background-size: cover;
     height: 150vh;
     background-repeat: no-repeat;

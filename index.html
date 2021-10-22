@@ -7,51 +7,41 @@
     <title>Game Example</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 
 </head>
 <body class="bg-dark">
     <!-- Navbar -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark shadow-5-strong">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top ">
         <!-- Container wrapper -->
         <div class="container-fluid">
             <!-- Navbar brand -->
             <a class="navbar-brand" href="#">LOGO</a>
 
             <!-- Toggle button -->
-            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-                data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav">
+                <span class="navbar-toggler-icon"></span>
             </button>
-
             <!-- Collapsible wrapper -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse font-opensans" id="mainNav">
                 <!-- Left links -->
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <!-- Navbar dropdown -->
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-mdb-toggle="dropdown" aria-expanded="false">
-                            Works
-                        </a>
-                        <!-- Dropdown menu -->
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li>
-                                <a class="dropdown-item" href="#">Games</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">Another Games</a>
-                            </li>
-                        </ul>
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#">WORK</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About Me</a>
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ABOUT ME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Q&A</a>
                     </li>
                 </ul>
                 <!-- Left links -->
@@ -59,7 +49,7 @@
             <!-- Collapsible wrapper -->
 
             <!--Right Navbar-->
-            <ul class="navbar-nav ms-auto">
+            <ul class="navbar-nav ms-auto font-opensans">
                 <li class="nav-item"><a href="#" class="nav-link"">Login</a></li>
                 <li class="nav-item"><a href="#" class="nav-link"">Sign Up</a></li>
             </ul>
@@ -88,8 +78,8 @@
             <h2 class="display-5">THE GAMES
                 <img src="assets/rockpaperstrategy-1600.jpg" class="img-inside" alt="">
             </h2>
-            <img src="assets/switch.png" alt="" class="switch-left">
-            <img src="assets/switch (1).png" alt="" class="switch-right">
+            <!-- <img src="assets/switch.png" alt="" class="switch-left">
+            <img src="assets/switch (1).png" alt="" class="switch-right"> -->
         </div>
     </div>
     <!--Page 2-->
